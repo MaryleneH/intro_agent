@@ -1,0 +1,23 @@
+## :one: Actualités
+
+Nous tenons encore à remercier chaleureusement le Pôle Communication pour leur précieux soutien et l'apport des principaux éléments composant la nouvelle charte graphique de l'Insee.    
+ 
+
+### **V1 - Nouveau support disponible au format ODT**
+
+**Principales nouveautés :**    
+
+- **Sommaire:** Prise en compte de la possibilité de ne pas numéroter une slide de niveau 1 (utilisation de la classe `.unnumbered`). Le chapitre n'apparaît plus dans le sommaire. 
+- **Conformité:** Mise à jour des fonds de slide avec modification des couleurs pour améliorer les contrastes. (nouvelle charte graphique)
+- **Plugins:** Suppression de l'extension roughnotation (pas très utile ni fonctionnelle)
+- **Refactoring:** Changement d'architecture des configurations du projet pour prise en compte de supports multiples.
+  - transferts de configurations du fichier `_quarto.yml` vers le fichier `_extension.yml`
+  - restructuration des ressources avec changement de path pour une meilleure séparation entre les supports
+- Ajout d'un {+nouveau format d'export+} avec l'intégration d'un output libreOffice en ODT :arrow_right: Cf. le fichier `template_writer.qmd`. 
+
+## :two: À venir
+
+- La génération de supports Impress ou PDF (éventuellement)
+- Un thème sombre (éventuellement)
+
+ **Pour en savoir plus sur le détail des modifications, consultez la partie [releases](https://gitlab.insee.fr/pole-bpe/presentations-formations/presentation-quarto/-/releases)**
